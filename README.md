@@ -9,7 +9,9 @@ Last Modified: Eisha Ahmed - July 5, 2019
 
 ---
 <a name="course-outline"/>
+
 ## Course Outline
+
 ### Overview
 Data visualization (DV) is a form of visual communication used to present data, and is important across many disciplines. This course will cover the core principles of good graphics and best practices, how to choose a visualization approach depending on the type of data and the desired message, and demonstrations of how DV can yield insights into data otherwise lost or buried by statistics alone. Participants will also learn how to visualize data and implement basic graphics in R, and generate their own graphics to visualize data. Source code for demonstrated charts will be made available to workshop participants.
 
@@ -22,7 +24,9 @@ The focus of this course is on DV principles that translate to any tool or progr
 
 ---
 <a name="setup"/>
+
 ## Setting up your R and R Studio environment
+
 It is highly recommended that you install R and R studio on your computer *before* hand, as we will not be discussing installation or setup during the workshop. Multiple tutorials are available online that can guide you through the installation processes for your computer and operating system.
 
 **If you have never installed R and/or R Studio**, you can access the download links to the latest releases from the following URLs (install R first):
@@ -40,7 +44,7 @@ https://courses.edx.org/courses/UTAustinX/UT.7.01x/3T2014/56c5437b88fa43cf828bff
 R.Version()$version.string
 ```
 
-## Updating R and R Studio
+### Updating R and R Studio
 
 If needed, there are a few different ways of updating your version of R and R Studio depending on your operating system. The easist method is to simply manually download and re-install the latest version, then restart R Studio. The new version of R will be loaded automatically. Note that this method will not automatically carry over installed R packages, thus they will have to be re-installed.
 
@@ -48,7 +52,7 @@ If you are working on a Mac, I highly reccomend you go this route and spare your
 
 If you are working a Windows machine, you can also update R using the installr package to update the software. A full tutorial on how to do this can be found here: https://www.r-statistics.com/2013/03/updating-r-from-r-on-windows-using-the-installr-package/
 
-## Installing R packages
+### Installing R packages
 
 Finally to prepare your R environment, you can install the R packages that will be used during this workshop in advance. In R Studio, you can install the packages line-by-line by running the following lines of code:
 
