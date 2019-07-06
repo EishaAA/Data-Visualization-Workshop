@@ -86,3 +86,62 @@ lapply(allPackages, function(x) sprintf("%s version %s", x, packageVersion(x)))
 ```
 
 That's it, your environment setup is complete. Now you're ready to jump into data visualization in R!
+
+
+## Types of plots
+
+1D Distributions
+
+* Violin Plots - ggPlot
+* Density Plots - shows distribution of a numerical value; important to consider bandwidth argument
+* Histograms
+* Box Plots
+* Ridgeline/Joy Plots
+
+Correlations & 2D Distributions
+
+* Scatter plot (& scatter plot matrix for multivariate analysis)
+* Heatmap
+* Correlogram
+* Bubble chart
+* Connected scatter
+* 2D Density Plot
+
+Rankings
+
+* Barplots
+* Spider/Radar plots
+* Parallel plots
+* Lollipop/stem plots
+
+Parts of a whole
+
+* Dendogram
+* Venn diagram
+* Stacked Bar chart
+* Pie chart
+* Donut Chart
+
+Evolution over time
+
+* Stacked area chart
+* Line chart
+* Area chart
+* Parallel Plots
+
+Maps
+
+* Generating a background map
+* Map Connections
+* Bubbles on map
+* Choropleth map
+
+Flow
+
+* Network
+* Chord diagram
+* Hierarchical Edge Bundling
+* Sankey diagram
+
+----
+
