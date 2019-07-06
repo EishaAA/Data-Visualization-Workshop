@@ -6,8 +6,6 @@ Last Modified: Eisha Ahmed - July 5, 2019
 [Course Outline](#course-outline)  
 [Setting up your R and R Studio environment](#setup) 
 
-
----
 <a name="course-outline"/>
 
 ## Course Outline
@@ -22,7 +20,6 @@ The focus of this course is on DV principles that translate to any tool or progr
 * **Types of visualization graphics:** Survey various DV approaches for different types of data, from the basics to more specialized presentations (such as bar graphs and variants, scatter plots, line charts, box plots, heatmaps, colourmaps, dendograms, and networks).
 * **Visualizing data in R:** How to visualize data and generate various graphic types in R. We will explore both methods that use build-in R functions and external libraries for visualization (such as ggplot2, Leaflet, RGL, Lattice, highcharter).
 
----
 <a name="setup"/>
 
 ## Setting up your R and R Studio environment
