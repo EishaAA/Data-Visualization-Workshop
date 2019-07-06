@@ -28,6 +28,7 @@ After going to your shopping cart, there are multiple ways you can download the 
 
 ### Microbiome data (.biom files from QIME pipeline)
 
+A core gut microbiome in obese and lean twins: [Publication](http://dx.doi.org/10.1038/nature07540), [Qiime output download](https://qiita.ucsd.edu/study/description/77)
 
 ---
 <a name="baseR">
