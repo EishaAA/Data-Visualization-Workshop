@@ -26,6 +26,9 @@ For this demo, we are interested in visualizing patterns in gene expression in p
 
 After going to your shopping cart, there are multiple ways you can download the list of gene expression files. One such method is to download the manifest, then download all the files using the [GDC Data Transfer Tool](https://gdc.cancer.gov/access-data/gdc-data-transfer-tool). See `datasets_tcga.R` for the R script used to build the combined dataset.
 
+### Microbiome data (.biom files from QIME pipeline)
+
+
 ---
 <a name="baseR">
 ## Plotting in Base R
