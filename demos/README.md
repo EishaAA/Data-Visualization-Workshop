@@ -22,6 +22,9 @@ See `datasets_stringdb.R` for the R script used to process the original STRING d
 
 https://portal.gdc.cancer.gov
 
+For this demo, we are interested in visualizing patterns in gene expression in people with lung cancer (adenocarcenoma). To do this, we filter project characteristics by Experimental Strategy (RNAseq), Workflow Type (HTSeq - FPKM), and Access (open), Primary Site (Bronchus & Lung), and finally project (TCGA-LUAD). All the resultant files to the shopping cart.
+
+After going to your shopping cart, there are multiple ways you can download the list of gene expression files. One such method is to download the manifest, then download all the files using the [GDC Data Transfer Tool](https://gdc.cancer.gov/access-data/gdc-data-transfer-tool). See `datasets_tcga.R` for the R script used to build the combined dataset.
 
 ---
 <a name="baseR">
