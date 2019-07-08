@@ -51,7 +51,7 @@ If you are working a Windows machine, you can also update R using the installr p
 
 ### Installing R packages
 
-Finally to prepare your R environment, you can install the R packages that will be used during this workshop in advance. In R Studio, you can install the packages line-by-line by running the following lines of code:
+Finally to prepare your R environment, you can install the R packages we will be exploring during this workshop in advance. In R Studio, you can install the packages by running the following lines of code:
 
 ```R
 install.packages("ggplot2")
@@ -59,13 +59,14 @@ install.packages("lattice")
 install.packages("leaflet")
 install.packages("rgl")
 install.packages("highcharter")
+install.packages("circlize")
 ```
 
 Finally, we will load these libraries into our workspace and check the version numbers to ensure there are no errors:
 
 ```R
 # load packages into workspace
-allPackages <- c("ggplot2", "lattice", "leaflet", "rgl", "highcharter")
+allPackages <- c("ggplot2", "lattice", "leaflet", "rgl", "highcharter", "circlize")
 lapply(allPackages, library, character.only = TRUE)
 ```
 
@@ -77,7 +78,7 @@ No error messages should be returned after loading the libraries.
 'Error in dyn.load(file, DLLpath = DLLpath, ...)... On MacOS, rgl depends on XQuartz, which you can download from xquartz.org'.
 ```
 
-First download XQuatrz from xquartz.org, then restart your computer. You should now be able to load the RGL library without any error messages.
+First download XQuatrz from xquartz.org, then restart your computer. You should now be able to load the RGL library without any error messages (XQuartz will open when the RGL library is loaded).
 
 Now you can check the version numbers of each package:
 
