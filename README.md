@@ -1,6 +1,6 @@
 # MiCM Data Visualization Workshop
 
-Last Modified: Eisha Ahmed - July 5, 2019
+Last Modified: Eisha Ahmed - July 8, 2019
 
 ##### Table of Contents  
 [Course Outline](#course-outline)  
