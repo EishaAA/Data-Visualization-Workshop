@@ -14,3 +14,4 @@ Another reference to help decode cell types: http://immunedata.org/search.php?se
 If you have troubles downloading files from GitHub, you can access download them from Google Drive:
 
 Gene frequencies: https://drive.google.com/file/d/1Kbm0zh-6I6cs-AEJeUMgKukcy9wVsa39/view?usp=sharing
+Details on Sorted Cell Populations: https://drive.google.com/file/d/1Dg9VibaIoVPIyno0DUVSCcyHPIZfPA81/view?usp=sharing
