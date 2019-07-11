@@ -6,3 +6,5 @@ You will be working with RNAseq data from the Immunological Genome Project (ImmG
 You don't have to look at all the data, rather, you can focus on cell subsets that are interesting to you.
 
 Normalized gene frequencies are found in `GSE109125_Gene_count_table.csv`. If you are interested in more details about the markers used for sorting, refer to `GSE109125_series_matrix.txt`.
+
+Another reference to help decode cell types: http://immunedata.org/search.php?searchtype=data&query=%20&offset=1&repository=0010
